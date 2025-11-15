@@ -1,0 +1,14 @@
+atgg
+      241 acgtccatac ccgctggaaa gcgcgcagcg cgctccgccc gggcgccccg ctgctgcccc
+      301 cgctgctgct gctgctgctg tgggcgccgc ctccgagccg cgcagctcag ccagcagatc
+      361 tcctgaaggt tctagatttt cacaacttgc ctgatggaat aacaaagaca acaggctttt
+      421 gcgccacgcg gcgatcttcc aaaggcccgg atgtcgctta cagagtcacc aaagacgcgc
+      481 agctcagcgc acccaccaag cagctgtacc ctgcgtctgc atttcccgag gacttctcca
+      541 tcctaacaac tgtgaaagcc aagaaaggca gccaggcctt cctggtctcc atctacaacg
+      601 agcagggtat ccagcagatt gggctggagc tgggccgctc tcccgtcttc ctctacgagg
+      661 accacacggg gaagcctggc ccggaagact accccctctt ccggggcatc aacctgtcag
+      721 atggcaagtg gcacagaatt gctctcagcg tccacaagaa aaatgtcacc ttgatcctcg
+      781 actgtaaaaa gaagaccacc aaattcctcg accgcagcga ccaccccatg atcgacatca
+      841 atggcatcat cgtgtttggc acccggatcc tggatgagga ggtgtttgag ggtgacatcc
+      901 agcagctgct ctttgtctcg gaccaccggg cagcttatga ttactgtgag cactacagcc
+      961 ctgactgtga caccgcagta cctgacaccc cacagtcgca tag
