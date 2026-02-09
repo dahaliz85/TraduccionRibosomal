@@ -21,6 +21,9 @@ Beyond a simple parser, this tool was built as part of a personal research effor
 * **Time Complexity:** Maintains $O(n)$ complexity relative to the sequence length.
 * **Accuracy:** Handles premature stop codons (e.g., at position 255), providing data-driven representation of collagen deficiency.
 
+---
+*For technical setup and execution details, please refer to [INSTALL.md](./INSTALL.md).*
+
 ## 👩‍💻 About the Author
 **Lizbeth Sanchez Zambrano**
 Senior Software Engineer with 15+ years of experience in systems architecture. Currently pivoting technical expertise toward **Biomedical Engineering**, driven by a personal commitment to solving the mysteries of Ehlers-Danlos Syndrome through code.
