@@ -1,33 +1,26 @@
-🧬 Overview
-This project is a high-performance computational tool designed to simulate the ribosomal translation process, specifically targeting the COL5A1 gene associated with Classic Ehlers-Danlos Syndrome (cEDS).
+# Ribosomal Simulation: COL5A1 Protein Synthesis
 
-The simulator models how a nonsense mutation (premature stop codon) affects protein synthesis, providing a visual and data-driven representation of truncated collagen chains.
+**Overview:** This project is a high-performance computational tool designed to simulate the ribosomal translation process, specifically targeting the **COL5A1 gene** associated with **Classic Ehlers-Danlos Syndrome (cEDS)**.
 
-🛠 Technical Stack
-Language: Java (JDK 17+)
+## 🎯 The Mission
+Beyond a simple parser, this tool was built as part of a personal research effort to understand protein truncation. By simulating how specific genetic "roadblocks" occur, the goal is to visualize the structural collagen deficiencies that characterize EDS. My focus is to bridge the gap between computational logic and biomedical research to contribute toward finding a cure.
 
-Architecture: Object-Oriented Design for molecular entities (mRNA, Ribosome, tRNA, Amino Acids).
+## 🛠 Technical Stack & Architecture
+* **Language:** Java (JDK 17+)
+* **Architecture:** Object-Oriented Design for molecular entities (mRNA, Ribosome, tRNA, Amino Acids).
+* **Why Java?:** I chose Java to leverage its robust Type System, allowing for a clean representation of biological entities while maintaining the performance required for complex sequence analysis.
 
-Performance: Optimized for processing large genomic sequences using efficient string handling and custom data structures.
+## 🚀 Key Features
+* **Genomic Data Parsing:** Efficiently processes raw DNA/RNA sequences from text files with a minimal memory footprint.
+* **Optimized Codon Mapping:** Implemented using a `HashMap` structure to ensure $O(1)$ lookup time, prioritizing execution speed.
+* **Memory Management:** Designed with state-cleanup logic; once a termination codon is identified, the system clears transient data to keep the JVM heap optimized.
+* **Mutation Analysis:** Comparison between Wild-Type (WT) and Mutant sequences to demonstrate how nonsense mutations result in non-functional, truncated proteins.
 
-Scientific Logic: Implements the standard genetic code table for codon-to-amino-acid mapping.
+## 🧬 Scientific Logic & Complexity
+* **Ribosomal Walk:** Step-by-step simulation of translation initiation, elongation, and termination.
+* **Time Complexity:** Maintains $O(n)$ complexity relative to the sequence length.
+* **Accuracy:** Handles premature stop codons (e.g., at position 255), providing data-driven representation of collagen deficiency.
 
-🔬 Scientific Context: Classic Ehlers-Danlos Syndrome (cEDS)
-The simulation focuses on the COL5A1 gene mutation. In a healthy state, this gene produces a protein of 1,838 amino acids.
-
-The Problem: Nonsense mutations create a premature stop codon.
-
-The Simulation: This tool demonstrates how the ribosome stops at position 255 (or relevant clinical coordinates), resulting in a non-functional, truncated protein that leads to collagen deficiency.
-
-🚀 Key Features
-Sequence Parsing: Loads and validates raw DNA/mRNA sequences.
-
-Ribosomal Walk: Step-by-step simulation of the translation initiation, elongation, and termination.
-
-Mutation Analysis: Comparison between Wild-Type (WT) and Mutant sequences.
-
-Reporting: Generates detailed logs of the resulting polypeptide chain length and composition.
-
-📥 Installation & Usage
-👩‍🔬 About the Author
-Lizbeth Sanchez Zambrano Senior Software Engineer with 15+ years of experience, currently transitioning into Biomedical Engineering. This project is part of an ongoing research effort to find computational solutions and eventually a cure for Ehlers-Danlos Syndrome.
+## 👩‍💻 About the Author
+**Lizbeth Sanchez Zambrano**
+Senior Software Engineer with 15+ years of experience in systems architecture. Currently pivoting technical expertise toward **Biomedical Engineering**, driven by a personal commitment to solving the mysteries of Ehlers-Danlos Syndrome through code.
